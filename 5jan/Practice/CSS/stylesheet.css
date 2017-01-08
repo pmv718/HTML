@@ -1,0 +1,12 @@
+ul li a{
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+}
+ul li a:hover{
+	text-decoration: underline;
+	color: orange;
+}

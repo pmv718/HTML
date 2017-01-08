@@ -1,0 +1,15 @@
+.box{
+	width:200px;
+	height :400px;
+	margin:auto;
+	background: silver;
+	position: relative;
+	top: 200px;
+}
+.wrap
+{   
+	margin:auto;
+	width: 800px;
+	height: 400px;
+	background-color: orange;
+}
