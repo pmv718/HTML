@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Yoga">
+	<meta name="keywords" content="yoga,life,lifestyle,health,meditation,stress free,relief,happiness">
+	<meta name="author" content="John Doe">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Go Yo</title>
+	<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/components/icon.min.css">
+	<style>
+	#ui.modal
+	{
+
+		height:50%;
+		width: 50%;
+	}
+
+
+	</style>
+</head>
+<body>
+	<div class="ui segment">
+		<div class="ui modal">
+			<i class="close icon"></i>
+			<div class="header">Sign Up for free online yoga classes
+			</div>
+			<div class="content">
+				<div class="ui form">
+					<div class="five wide field">
+						<label for="first_name">Name</label>
+						<input type="text" name="first_name" placeholder="Name">
+					</div>
+					<div class="five wide field">
+						<label for="email">Email</label>
+						<input type="email" name="email" placeholder="email">
+					</div>
+					<div class="five wide field">
+						<label for="address">Address</label>
+						<textarea name="address" id="address" cols="30" rows="10" name="address" placeholder="Address"></textarea>
+					</div>
+					<div class="five wide field">
+						<button class="ui primary button">Done!</button>
+					</div>
+
+				</div>
+			</div>
+
+
+
+		</div>
+        <button class="ui primary button" id="toggle">SIGN UP</button>
+	</div>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js"></script>
+<script>
+
+$('#toggle').click(function(){$('.ui.modal').modal("show")})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+.image {
+  position: relative;
+  width: 100%; /* for IE 6 */
+}
+
+.image span p {
+  color: white;
+  position: absolute;
+  margin: 20% 25%;
+  width: 100%;
+  font-size: xx-large;
+   }
+   .image span h2{
+   color: white;
+  position: absolute;
+  margin:27% 70% 50% 30%;
+  width: 100%;
+  font-size: large;
+
+   }
+ .image img{
+ 	height: 20%;
+ 	width: 100%;
+ }
+ #menu{
+ 	width: 0%;
+    position: absolute;
+    margin:0%;
+
+ }
+ #signup{
+ 	position: absolute;
+ 	margin:30% 10% 20% 35%;
+ }
+.ui.relaxed.grid .four.wide.column {
+	    margin: 5% 4%;
+    padding-top: 10%;
+}
+.ui.center.aligned.header, .ui.centered.header {
+    text-align: center;
+    line-height: 200%;
+  }
+.ui.three.stackable.cards{
+    padding: 10%;
+}

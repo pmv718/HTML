@@ -1,0 +1,15 @@
+    .ui.fixed.menu.icon{
+    height: 15%;
+    
+    background-color: black;
+}
+.ui.fixed.menu.icon h1{
+	color: white;
+}
+#goals{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+#goaltext{
+	font-size: large;
+}
